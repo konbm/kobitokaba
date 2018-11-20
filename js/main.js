@@ -5,6 +5,6 @@ window.onload=function(){
 	for(var i=0;i<images.length;i++){
 		images[i].addEventListener("Click",function(){
 			this.style.zIndex=++zIndexMax;
-		}
+		});
 	}
 }
